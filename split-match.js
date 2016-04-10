@@ -4,7 +4,6 @@
 var fs = require('fs');
 var Transform = require('stream').Transform;
 var inherits = require('util').inherits;
-var underscore = require('underscore');
 var program = require('commander');
 var out = [];
 
